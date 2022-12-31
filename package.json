@@ -2,5 +2,24 @@
   "dependencies": {
     "axios": "^1.2.1",
     "cheerio": "^1.0.0-rc.12"
-  }
+  },
+  "name": "webscraper",
+  "description": "Amazon products web scraper built with NodeJS",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/snowdenfam/webscraper.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/snowdenfam/webscraper/issues"
+  },
+  "homepage": "https://github.com/snowdenfam/webscraper#readme"
 }
