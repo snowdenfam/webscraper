@@ -1,3 +1,27 @@
+
+
+
+
+
+
+    let element = {
+        title,
+            link: 'https://amazon.com/gp/slredirect/picassoRedirect.html/ref=pa_sp_btf_aps_sr_pg1_1?ie=UTF8&adId=A03078372WABZ8V6NFP9L&url=%2FSUPERJARE-Mounted-Floating-Shelves-Display%2Fdp%2FB07H4NRT36%2Fref%3Dsr_1_59_sspa%3Fcrid%3D36QNR0DBY6M7J%26dchild%3D1%26keywords%3Dshelves%26qid%3D1627970918%26refresh%3D1%26sprefix%3Ds%252Caps%252C309%26sr%3D8-59-spons%26psc%3D1&qualifier=1627970918&id=3373422987100422&widgetName=sp_btf',
+        image,
+        link: ``,
+        price,
+    }
+
+    if (reviews) {
+        element.reviews = reviews
+    }
+
+    if (stars) {
+        element.stars = stars
+    }
+
+
+
 const axios = require("axios");
 const cheerio = require("cheerio");
 
