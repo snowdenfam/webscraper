@@ -42,7 +42,7 @@ const price = shelf.find('span.a-price > span.a-offscreen').text()
         element.stars = stars
     }
 
-           shelves.push(title)
+           shelves.push(element)
        });
 
        return shelves;
