@@ -1,15 +1,3 @@
-let csvContent = shelves.map(element => {
-    return Object.values(element).map(item => `"${item}"`).join(',')
- }).join("\n")
- 
- fs.writeFile('saved-shelves.csv', "Title, Image, Link, Price, Reviews, Stars" + '\n' + csvContent, 'utf8', function (err) {
-    if (err) {
-      console.log('Some error occurred - file either not saved or corrupted.')
-    } else{
-      console.log('File has been saved!')
-    }
- })
-
 
 
 const axios = require("axios");
